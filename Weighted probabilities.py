@@ -23,7 +23,6 @@ for i in range(0, 100000):
     word = ""
     for i in range(0, random.randint(3,8)):
         word = (word + weighted_choice(characters, weights))
-
-    
-   # if d.check(word) == True:
-    print(word)
+        
+    if d.check(word) == True:
+        print(word)
